@@ -33,27 +33,15 @@ generate the image list using script  [`./get_flist.py`](./get_flist.py) for tra
 
 **2.   Training**
 
-To train our model, modify the model config file[inpaint.yaml](inpaint.yaml). You may need to change the path of dataset or the parameters of the networks etc. Then run python train.py \
+To train our model, modify the model config file [inpaint.yaml](inpaint.yaml). You may need to change the path of dataset or the parameters of the networks etc. Then run python train.py \
 
 **3.   Testing**
 
 To output the generated results of the inputs, you can use the [test.py](test.py).  The pre-trained weights can be downloaded from [Places2](), [CelebA-HQ](). Download the checkpoints and save them to './model_logs'
-Please run the following code:
-
-```bash
-python test.py \
---name=places \
---path=results \
---input=./example/places/1.jpg \
---mask=./example/places/1_mask.png \
---structure=./example/places/1_tsmooth.png \
---output=./result_images \
-```
-
 
 ### Citation
 
-We built our code based on [StructureFlow](https://github.com/RenYurui/StructureFlow).If you find this code is helpful for your research, please cite the following paper:
+We built our code based on  [CA](https://github.com/JiahuiYu/generative_inpainting).If you find this code is helpful for your research, please cite the following paper:
 
 ```
 @inproceedings{ren2019structureflow,
@@ -68,4 +56,4 @@ We built our code based on [StructureFlow](https://github.com/RenYurui/Structure
 
 ### Acknowledgements
 
-We built our code based on [StructureFlow](https://github.com/RenYurui/StructureFlow). Part of the code were derived from [Edge-Connect](https://github.com/knazeri/edge-connect) and [CA](https://github.com/JiahuiYu/generative_inpainting). Please consider to cite their papers. 
+We built our code based on [CA](https://github.com/JiahuiYu/generative_inpainting). Part of the code were derived from [Edge-Connect](https://github.com/knazeri/edge-connect) and [CA](https://github.com/JiahuiYu/generative_inpainting). Please consider to cite their papers. 
