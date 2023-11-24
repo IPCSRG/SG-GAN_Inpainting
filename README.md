@@ -24,7 +24,7 @@ Code for our paper "[SG-GAN_Inpainting]
 
 **1.   Image Prepare**
 
-We train our model on Places2 and Celeba, and Paris dataset.
+We train our model on Places2 and Celeba dataset.
 
 1. [Places2](http://places2.csail.mit.edu)
 2. [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 
