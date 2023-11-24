@@ -50,8 +50,13 @@ We built our code based on  [CA](https://github.com/JiahuiYu/generative_inpainti
   year    = {2019},
   journal = {International Conference on Machine Learning},
 }
+@article{yu2018generative,
+  title={Generative Image Inpainting with Contextual Attention},
+  author={Yu, Jiahui and Lin, Zhe and Yang, Jimei and Shen, Xiaohui and Lu, Xin and Huang, Thomas S},
+  journal={arXiv preprint arXiv:1801.07892},
+  year={2018}
+}
 ```
-
 
 
 ### Acknowledgements
