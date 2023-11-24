@@ -41,7 +41,7 @@ To output the generated results of the inputs, you can use the [test.py](test.py
 
 ### Citation
 
-We built our code based on  [CA](https://github.com/JiahuiYu/generative_inpainting).If you find this code is helpful for your research, please cite the following paper:
+We built our code based on  [CA](https://github.com/JiahuiYu/generative_inpainting). If you find this code is helpful for your research, please cite the following paper:
 
 ```
 @article{Han18,
