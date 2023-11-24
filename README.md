@@ -22,7 +22,7 @@ Code for our paper "[SG-GAN_Inpainting]
    
 ### Running
 
-**1.   Image Prepare**
+**1.   Datasets**
 
 We train our model on Places2 and Celeba dataset.
 
@@ -44,11 +44,11 @@ To output the generated results of the inputs, you can use the [test.py](test.py
 We built our code based on  [CA](https://github.com/JiahuiYu/generative_inpainting).If you find this code is helpful for your research, please cite the following paper:
 
 ```
-@inproceedings{ren2019structureflow,
-      author = {Ren, Yurui and Yu, Xiaoming and Zhang, Ruonan and Li, Thomas H. and Liu, Shan and Li, Ge},
-      title = {StructureFlow: Image Inpainting via Structure-aware Appearance Flow},
-      booktitle={IEEE International Conference on Computer Vision (ICCV)},
-      year = {2019}
+@article{Han18,
+  author  = {Han Zhang, Ian J. Goodfellow, Dimitris N. Metaxas, Augustus Odena},
+  title   = {Self-Attention Generative Adversarial Networks},
+  year    = {2019},
+  journal = {International Conference on Machine Learning},
 }
 ```
 
@@ -56,4 +56,4 @@ We built our code based on  [CA](https://github.com/JiahuiYu/generative_inpainti
 
 ### Acknowledgements
 
-We built our code based on [CA](https://github.com/JiahuiYu/generative_inpainting). Part of the code were derived from [Edge-Connect](https://github.com/knazeri/edge-connect) and [CA](https://github.com/JiahuiYu/generative_inpainting). Please consider to cite their papers. 
+We built our code based on [CA](https://github.com/JiahuiYu/generative_inpainting). Part of the code were derived from [SAGAN](https://github.com/brain-research/self-attention-gan). Please consider to cite their papers. 
