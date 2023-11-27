@@ -41,7 +41,7 @@ To output the generated results of the inputs, you can use the [test.py](test.py
 
 ### Citation
 
-We built our code based on [CA](https://github.com/JiahuiYu/generative_inpainting).
+We built our code based on [CA](https://github.com/JiahuiYu/generative_inpainting) and  [SAGAN](https://github.com/brain-research/self-attention-gan).
 
 ```
 @article{Han18,
