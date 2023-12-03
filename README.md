@@ -24,10 +24,10 @@ Code for our paper "[SG-GAN_Inpainting]
 
 **1.   Datasets**
 
-We train our model on Places2 and Celeba dataset.
+We train our model on Places2 and CelebA-HQ datasets.
 
 1. [Places2](http://places2.csail.mit.edu)
-2. [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 
+2. [CelebA-HQ](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 
 
 generate the image list using script  [`./get_flist.py`](./get_flist.py) for training.
 
