@@ -37,7 +37,7 @@ To train our model, modify the model config file [inpaint.yaml](inpaint.yaml). Y
 
 **3.   Testing**
 
-To output the generated results of the inputs, you can use the [test.py](test.py).  The pre-trained weights can be downloaded from [Places2](), [CelebA-HQ](). Download the checkpoints and save them to './model_logs'
+To output the generated results of the inputs, you can use the [multitest.py](multitest.py).  The pre-trained weights can be downloaded from [Places2](), [CelebA-HQ](). Download the checkpoints and save them to './model_logs'
 
 ### Citation
 
